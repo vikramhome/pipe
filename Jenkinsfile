@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	parameters {
 		choice(
-			choices: 'yes\nno',
+			choices: 'yes\nno\nMaybe',
 			description: 'want to build?',
 			name: 'Requested_Action')
 	}
