@@ -10,10 +10,9 @@ pipeline {
 		stage ('build') {
 			when {
 				expression { params.Requested_Action =='yes' }
-	
+			}
 		steps {
 			echo "Hello builder" }
+		}
 	}
-}
 }		
-}
