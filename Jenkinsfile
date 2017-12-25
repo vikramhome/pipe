@@ -11,7 +11,7 @@ pipeline {
 			when {
 				expression { params.Requested_Action =='yes' }
 	
-		step {
+		steps {
 			echo "Hello builder" }
 	}
 }
