@@ -15,4 +15,5 @@ pipeline {
 			echo "Hello builder" }
 	}
 }
+}
 }		
